@@ -8,6 +8,7 @@ const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 
 let myLeads = []
 
+
 // STORE TO THE LOCAL STORAGE
 if ( leadsFromLocalStorage ) {
   myLeads = leadsFromLocalStorage
